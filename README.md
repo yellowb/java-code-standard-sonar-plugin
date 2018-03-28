@@ -6,12 +6,12 @@ This plugin combines PMD rules and P3C rules.For PMD, check https://github.com/S
 
 # Install 
 ## 1.Package jar
-git clone https://github.com/yellowb/java-code-standard-sonar-plugin.git
-mvn clean & mvn package
+1. git clone https://github.com/yellowb/java-code-standard-sonar-plugin.git
+2. mvn clean & mvn package
 
 ## 2.Download sonarqube and install
 Visit SonarQube website.
 
 ## 3.Install puglin
-put generate sonar-pmd-plugin-2.6.jar into <SONARQUBE_FOLDER>\extensions\plugins
-restart SonarQube
+1. put generate sonar-pmd-plugin-2.6.jar into <SONARQUBE_FOLDER>\extensions\plugins
+2. restart SonarQube
